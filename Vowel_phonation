@@ -2,8 +2,9 @@
 # Chad's script URL: http://phonetics.linguistics.ucla.edu/facilities/acoustic/PraatVoiceSauceImitator.txt
 # updated in 2023-12-11
 # 
-# If you want to extract phonation measurements, alternatively, I would suggest using VoiceSauce, which is a MATLAB-implemented
-# program for phonetic analysis.
+# This script extracts *UNCORRECTED* H1-H2, H1-A1, H1-A2 and H1-A3 values.
+# If you want to extract CORRECTED phonation measurements (H1*-H2*, H1*-A1*, H1*-A2* and H1*-A3*),
+# I would suggest using VoiceSauce, which is a MATLAB-implemented program for phonetic analysis.
 # Here's the download address: 
 # https://phonetics.ucla.edu/voicesauce/index.html
 # 
@@ -12,7 +13,7 @@
 # https://yuanchaiyc.github.io/website/subpages/Tutorial_VS.pdf
 
 # [WHAT DOES IT EXTRACT]
-# This script will loop through all the files in a folder, and will extract H1-H2, H1-A1, H1-A2 and H1-A3 values
+# This script will loop through all the files in a folder, and will extract *UNCORRECTED* H1-H2, H1-A1, H1-A2 and H1-A3 values
 # from intervals that contain u, i, y in the labels.
 # It makes these measurements at different portions of the interval, based on the 
 # amount of chunking specified. To do this, it must measure f0 and the locations of the first three formats.
