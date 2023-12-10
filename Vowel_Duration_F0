@@ -128,7 +128,7 @@ for j from 1 to nSounds
 			# write file
 			fileappend "'filename$'" 'segment$','duration$','pitch0$','pitch1$','pitch2$','pitch3$','pitch4$','pitch5$','pitch6$','pitch7$','pitch8$','pitch9$','pitch10$', 'newline$'
 		endif
-		# close non-null interval if
+		# close interval if
 	endfor
 	# close interval loop
 endfor
